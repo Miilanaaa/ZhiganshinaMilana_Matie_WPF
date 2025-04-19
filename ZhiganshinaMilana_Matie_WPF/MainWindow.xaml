@@ -1,0 +1,14 @@
+﻿<Window x:Class="ZhiganshinaMilana_Matie_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZhiganshinaMilana_Matie_WPF"
+        mc:Ignorable="d"
+        Icon="pack://application:,,,/ZhiganshinaMilana_Matie_WPF;component/Images/Logo.ico"
+        WindowStyle = "None"
+        Title="Matie" Height="815" Width="1570" WindowState="Maximized">
+    <Grid>
+        <Frame x:Name="NewFrame" NavigationUIVisibility="Hidden"/>
+    </Grid>
+</Window>
