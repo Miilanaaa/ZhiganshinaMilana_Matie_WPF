@@ -32,6 +32,7 @@ namespace ZhiganshinaMilana_Matie_WPF.Pages
         {
             InitializeComponent();
             Refresh();
+            UpdateNavigation();
 
             serviceMasters = new List<ServiceMaster>(DbConnection.matieEntities.ServiceMaster.ToList());
             services = new List<Service>(DbConnection.matieEntities.Service.ToList());
